@@ -117,30 +117,27 @@ Releaf/
 
 ## 👤 My Role
 
-I led this project end-to-end as **Team Lead and Primary Engineer**, driving both the technical architecture and team execution.
+I served as **Team Lead** and owned the most technically demanding component of the app — the 3D Eco-sphere — while coordinating across design, backend, and delivery.
 
 ### 🎯 Technical Ownership
 
-**SceneKit / 3D Eco-sphere** *(most complex component)*
-- Architected the entire 3D interactive environment from scratch using Apple's SceneKit framework
-- Engineered a dynamic tree-rendering system where tree growth/decay is directly tied to the user's real-time carbon score
-- Solved the core UX challenge of making abstract CO₂ data emotionally resonant through 3D visual feedback
-- Implemented smooth scene animations and camera transitions for a polished, game-like feel
+**SceneKit / 3D Eco-sphere** *(primary ownership)*
 
-**UI/UX Design & SwiftUI Implementation**
-- Designed the complete app UI from wireframes to final implementation — every screen, flow, and interaction pattern
-- Built all SwiftUI views with a focus on accessibility, smooth navigation, and a clean green-forward visual identity
-- Iterated on the input flow based on usability testing feedback from the team
+- Architected and built the entire interactive 3D environment using Apple's SceneKit framework
+- Engineered the tree-rendering system where tree growth and decay responds directly to the user's real-time carbon score
+- Handled all scene animations, lighting, and camera transitions to deliver a polished, game-like feel
+- This was the highest-complexity module in the project — no existing template, built from scratch
 
-**Firebase Architecture**
-- Integrated Firebase Authentication for secure user login and session management
-- Designed the Firestore data schema for carbon entries, ensuring efficient reads/writes and real-time cross-device sync
+**UI/UX Contribution**
+
+- Collaborated with Ankit on early wireframe reviews and provided direction on the overall visual language
+- Reviewed and gave feedback on screen layouts during design sprints to ensure consistency with the app's nature-forward identity
 
 ### 👥 Team Leadership
 
-- Led a 4-person team (Skand Gupta, Ankit Verma, Nimit Kumar) through the full product lifecycle: ideation → design → development → testing → final demo
-- Ran structured sprint reviews and task delegation to keep the project on schedule
-- Presented the final product at the iSDP Galgotias University showcase
+- Led a 4-person team through the full product lifecycle: ideation → wireframing → development → testing → final demo
+- Delegated ownership clearly: Ankit on UI/UX, Skand on Firebase backend, Nimit on supporting iOS development
+- Presented the final product at the iSDP Galgotias University showcase.
 
 ---
 
@@ -205,21 +202,18 @@ open Releaf.xcworkspace
 
 ---
 
-## 📂 Wireframes & Design
+## 🎨 Design Language
 
-Early-stage wireframes created during the design sprint are in [`/docs/wireframes`](docs/wireframes/).
-
-The design language uses a nature-forward palette (deep greens, earth tones) with clean SwiftUI components — intentionally calm and grounding rather than alarm-inducing.
-
+Releaf's UI was designed by **Ankit Verma** during early sprint sessions — wireframes created in Figma before any code was written. The visual language uses a nature-forward palette (deep greens, earth tones) with clean SwiftUI components — intentionally calm and grounding rather than alarm-inducing.
 ---
 
 ## 👥 Team
 
 | Name | Role |
 |---|---|
-| **Nishant Sinha** *(me)* | Team Lead · SceneKit Engineer · UI/UX Design |
-| Skand Gupta | iOS Development |
-| Ankit Verma | iOS Development |
+| **Nishant Sinha** *(me)* | Team Lead · SceneKit / 3D Eco-sphere Engineer |
+| Ankit Verma | UI/UX Designer · Wireframing · SwiftUI Views |
+| Skand Gupta | Backend · Firebase Auth & Firestore Integration |
 | Nimit Kumar | iOS Development |
 
 **Mentor:** Shruti Ma'am, Galgotias University
