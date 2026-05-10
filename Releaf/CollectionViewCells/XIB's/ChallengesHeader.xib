@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0Vt-sh-xjb" customClass="ChallengesHeaderCollectionViewCell" customModule="Releaf" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="57"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ceu-vj-7qp">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="35a-eQ-m8l">
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="57"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="116" translatesAutoresizingMaskIntoConstraints="NO" id="tON-ZA-DkM">
+                        <rect key="frame" x="10" y="10" width="357" height="34.333333333333336"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do Challenges" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLm-l1-50e">
+                                <rect key="frame" x="0.0" y="0.0" width="164.66666666666666" height="34.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ils-18-962">
+                                <rect key="frame" x="280.66666666666669" y="0.0" width="76.333333333333314" height="34.333333333333336"/>
+                                <color key="tintColor" name="myDarkGreen"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="See All"/>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="35a-eQ-m8l" firstAttribute="leading" secondItem="Ceu-vj-7qp" secondAttribute="leading" id="2yA-dZ-Msq"/>
+                    <constraint firstItem="35a-eQ-m8l" firstAttribute="top" secondItem="Ceu-vj-7qp" secondAttribute="top" id="fda-GJ-XC6"/>
+                    <constraint firstAttribute="trailing" secondItem="35a-eQ-m8l" secondAttribute="trailing" id="hrG-B6-2Ta"/>
+                    <constraint firstAttribute="bottom" secondItem="35a-eQ-m8l" secondAttribute="bottom" id="zRh-Ic-LPu"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="367" height="57"/>
+            <connections>
+                <outlet property="seeAllChallengesButton" destination="ils-18-962" id="CtH-pu-jtr"/>
+            </connections>
+            <point key="canvasLocation" x="484.73282442748092" y="-257.3943661971831"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="myDarkGreen">
+            <color red="0.086000002920627594" green="0.20000000298023224" blue="0.030999999493360519" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

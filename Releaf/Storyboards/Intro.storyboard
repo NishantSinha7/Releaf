@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Intro View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="intro" id="Y6W-OH-hqX" customClass="IntroViewController" customModule="Releaf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wv6-uf-E0A">
+                                <rect key="frame" x="0.0" y="59" width="393" height="509"/>
+                            </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ew3-xe-07g">
+                                <rect key="frame" x="125" y="706" width="143" height="26"/>
+                                <color key="pageIndicatorTintColor" name="myDarkGreen"/>
+                                <color key="currentPageIndicatorTintColor" name="seaGreen"/>
+                            </pageControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOL-WL-zvJ">
+                                <rect key="frame" x="16" y="576" width="361" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4K-hh-q21">
+                                <rect key="frame" x="166" y="763" width="60" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next"/>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="qIc-K1-PeD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3v-SP-r7m">
+                                <rect key="frame" x="16" y="608" width="361" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wv6-uf-E0A" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="0l0-gg-EKf"/>
+                            <constraint firstItem="l4K-hh-q21" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="166" id="25k-4G-t4m"/>
+                            <constraint firstItem="l4K-hh-q21" firstAttribute="top" secondItem="Ew3-xe-07g" secondAttribute="bottom" constant="31" id="55i-Md-kMK"/>
+                            <constraint firstItem="Ew3-xe-07g" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="125" id="Akz-2R-gd3"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="l4K-hh-q21" secondAttribute="bottom" constant="20" id="EPa-qK-ioZ"/>
+                            <constraint firstItem="wv6-uf-E0A" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="LjT-lU-dpf"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Ew3-xe-07g" secondAttribute="trailing" constant="125" id="NpR-sn-ADx"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="wv6-uf-E0A" secondAttribute="trailing" id="Tcv-HF-BXy"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="wv6-uf-E0A" secondAttribute="bottom" constant="250" id="fTK-AZ-Lhk"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="l4K-hh-q21" secondAttribute="trailing" constant="167" id="zdW-up-DKn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="q3v-SP-r7m" id="4kf-Dw-O6x"/>
+                        <outlet property="descriptionTitleLabel" destination="sOL-WL-zvJ" id="CMe-ja-PbV"/>
+                        <outlet property="imageView" destination="wv6-uf-E0A" id="igu-Dd-amE"/>
+                        <outlet property="pageControl" destination="Ew3-xe-07g" id="2FJ-tl-1kJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="284.73282442748092" y="-15.492957746478874"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="myDarkGreen">
+            <color red="0.086000002920627594" green="0.20000000298023224" blue="0.030999999493360519" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="seaGreen">
+            <color red="0.68999999761581421" green="0.85699999332427979" blue="0.2800000011920929" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
