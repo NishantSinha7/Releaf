@@ -68,7 +68,7 @@ The Eco-sphere is a virtual world where trees grow when you make eco-conscious c
 
 <div align="center">
 
-[![Releaf Demo](docs/assets/demo_thumbnail.png)](docs/demo/releaf_demo.mp4)
+[![Releaf Demo](https://img.youtube.com/vi/9EioG1AvtgA/maxresdefault.jpg)](https://youtube.com/shorts/9EioG1AvtgA)
 
 *Click to watch the demo — showing the full user flow from login → carbon input → Eco-sphere response*
 
