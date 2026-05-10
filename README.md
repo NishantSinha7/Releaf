@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="docs/assets/banner.png" alt="Releaf Banner" width="100"/>
+<img src="docs/assets/banner.png" alt="Releaf Banner" width="150"/>
 
 **Track. Offset. Repeat.**
 
