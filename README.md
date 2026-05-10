@@ -241,8 +241,8 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 ---
 
 <div align="center">
-
-Made with 🌿 by [Nishant Sinha](https://github.com/NishantSinha7) · [LinkedIn](https://linkedin.com/in/your-linkedin) · [Portfolio](https://your-portfolio.com)
+    
+Made with 🌿 by [Nishant Sinha](https://github.com/NishantSinha7) · [LinkedIn](https://www.linkedin.com/in/nishant-sinha-0a1130319) · [Portfolio](https://your-portfolio.com)
 
 *Built as part of the iSDP programme at Galgotias University, 2024*
 
